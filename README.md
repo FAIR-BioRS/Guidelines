@@ -1,5 +1,7 @@
 # FAIR Biomedical Research Software (FAIR-BioRS) guidelines
-This repository is meant to maintain the FAIR Biomedical Research Software (FAIR-BioRS) guidelines and its different version as well as collect community feedback through the GitHub issues. Each version of the guidelines are stored in a dedicated folder under the `versions` folder. They are also accessible through the table included below. Changes between the different versions are tracked in the `CHANGELOG` file.
+
+## About
+This repository is meant to maintain the FAIR Biomedical Research Software (FAIR-BioRS) guidelines and its different versions as well as collect community feedback through the GitHub issues. Each version of the guidelines are stored in a dedicated folder under the `versions` folder. They are also accessible through the table included below. Changes between the different versions are tracked in the `CHANGELOG` file. See the FAIR-BioRS Hub repository(https://github.com/fairdataihub/FAIR-BioRS-Hub) for more details about the (FAIR-BioRS) guidelines.
 
 <table>
 <thead>
@@ -17,3 +19,6 @@ This repository is meant to maintain the FAIR Biomedical Research Software (FAIR
   </tr>
 </tbody>
 </table>
+
+## Feedback and contribution
+Use the [GitHub issues](https://github.com/fairdataihub/FAIR-BioRS-guidelines/issues) for submitting feedback or making suggestions. You can also work the repository and submit a pull request with suggestions.
