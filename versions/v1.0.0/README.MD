@@ -14,8 +14,7 @@ Follow language-specific standards and best practices. They will depend on the d
 ### Step 1.c
 Follow standards and best practices for documenting your software. It is suggested to maintain the
 documentation in a README.md or README.txt file located in the root directory of the software. The following
-aspects must be documented: inputs and outputs of the software, parameters and data required to run the
-software, the standards applied, and how to contribute to the software. It is suggested to read the paper on the
+aspects must be documented: inputs and outputs of the software, parameters and data required to run the software, the standards applied, and how to contribute to the software. It is suggested to read the paper on the
 “Ten simple rules for documenting scientific software” [5].
 
 ## Step 2: Collect files to share
