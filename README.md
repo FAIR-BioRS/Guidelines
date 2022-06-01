@@ -1,3 +1,19 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+
+[contributors-shield]: https://img.shields.io/github/contributors/fairdataihub/FAIR-BioRS-guidelines.svg?style=flat-square
+[contributors-url]: https://github.com/fairdataihub/FAIR-BioRS-guidelines/graphs/contributors
+[stars-shield]: https://img.shields.io/github/stars/fairdataihub/FAIR-BioRS-guidelines.svg?style=flat-square
+[stars-url]: https://github.com/fairdataihub/FAIR-BioRS-guidelines/stargazers
+[issues-shield]: https://img.shields.io/github/issues/fairdataihub/FAIR-BioRS-guidelines.svg?style=flat-square
+[issues-url]: https://github.com/fairdataihub/FAIR-BioRS-guidelines/issues
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
 # FAIR Biomedical Research Software (FAIR-BioRS) guidelines
 
 ## About
