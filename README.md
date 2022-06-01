@@ -3,7 +3,7 @@
 [![Issues][issues-shield]][issues-url]
 [![CC BY 4.0][cc-by-shield]][cc-by]
 [![Curated with FAIRshare][fairshare-shield]][fairshare-url]
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6604539.svg)](https://doi.org/10.5281/zenodo.6604539)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6604538.svg)](https://doi.org/10.5281/zenodo.6604538)
 
 [contributors-shield]: https://img.shields.io/github/contributors/fairdataihub/FAIR-BioRS-guidelines.svg?style=flat-square
 [contributors-url]: https://github.com/fairdataihub/FAIR-BioRS-guidelines/graphs/contributors
