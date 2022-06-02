@@ -38,6 +38,13 @@ This repository is meant to maintain the FAIR Biomedical Research Software (FAIR
     <td> 05/28/2022 </td>
     <td> <a href="https://github.com/fairdataihub/FAIR-BioRS-guidelines/blob/main/versions/v1.0.0/README.md"> versions/v1.0.0/README.md </a> </td>
   </tr>
+  
+  <tr>
+    <td> v1.0.1 </td>
+    <td> 06/02/2022 </td>
+    <td> <a href="https://github.com/fairdataihub/FAIR-BioRS-guidelines/blob/main/versions/v1.0.1/README.md"> versions/v1.0.1/README.md </a> </td>
+  </tr>
+  
 </tbody>
 </table>
 
