@@ -56,42 +56,32 @@ Share software on Zenodo [26] or Figshare [27].
 Optionally register the software on bio.tools [28] or on the Research Resource Identifiers (RRID) Portal [29]
 
 ## References
-1. Wilson, G. et al. Good enough practices in scientific computing. PLoS Comput. Biol. 13,
-e1005510 (2017).
-2. Silva, L. B., Jimenez, R. C., Blomberg, N. & Oliveira, J. L. General guidelines for biomedical
-software development. F1000Research vol. 6 273 (2017).
-3. Python Developer’s Guide. Python.org https://www.python.org/dev/.
-4. Google’s R style guide. styleguide https://google.github.io/styleguide/Rguide.html.
-5. Lee, B. D. Ten simple rules for documenting scientific software. PLoS Comput. Biol. 14,
-e1006561 (2018).
-6. codemeta. The CodeMeta project. https://codemeta.github.io/.
-7. Druskat, S., Haines, R. & Baker, J. Citation File Format (CFF) - Specifications. (2018).
-doi:10.5281/zenodo.1242911.
-8. CodeMeta generator. https://codemeta.github.io/codemeta-generator/.
-9. codemeta-generator: This repository contains a (client-side) web application to generate
-Codemeta documents (aka. codemeta.json). (Github).
-10. cffinit: a web form to initialize CITATION.cff files.
-https://citation-file-format.github.io/cff-initializer-javascript/#/.
-11. cff-initializer-javascript: Web form to initialize CITATION.cff files. (Github).
-12. Licenses & standards. https://opensource.org/licenses.
-13. The MIT license. https://opensource.org/licenses/MIT.
-14. Apache license, version 2.0. https://opensource.org/licenses/Apache-2.0.
-15. Choose an open source license. Choose a License https://choosealicense.com/.
-16. PyPI · the Python Package Index. PyPI https://pypi.org/.
-17. Conda — Conda documentation. https://docs.conda.io/en/latest/.
-18. Hornik, K. The comprehensive R archive network. Wiley Interdiscip. Rev. Comput. Stat. 4,
-394–398 (2012).
-19. Dockstore. https://dockstore.org/.
-20. ModelDB: Home. https://senselab.med.yale.edu/ModelDB/.
-21. McDougal, R. A. et al. Twenty years of ModelDB and beyond: building essential modeling
-tools for the future of neuroscience. J. Comput. Neurosci. 42, 1–10 (2017).
-22. Bioconductor - home. https://www.bioconductor.org/.
-23. Huber, W. et al. Orchestrating high-throughput genomic analysis with Bioconductor. Nat.
-Methods 12, 115–121 (2015).
-24. Gentleman, R. C. et al. Bioconductor: open software development for computational biology
-and bioinformatics. Genome Biol. 5, R80 (2004).
-25. Registry of Research Data Repositories. https://www.re3data.org/.
-26. Zenodo. https://zenodo.org/.
-27. Figshare - credit for all your research. https://figshare.com/.
-28. bio.tools · Bioinformatics Tools and Services Discovery. https://bio.tools/.
-29. Research Resource Identifiers. https://www.rrids.org/.
+1.	Wilson, G. et al. Good enough practices in scientific computing. PLoS Comput. Biol. 13, e1005510 (2017).
+2.	Silva, L. B., Jimenez, R. C., Blomberg, N. & Oliveira, J. L. General guidelines for biomedical software development. F1000Research vol. 6 273 (2017).
+3.	Python Developer’s Guide. Python.org https://www.python.org/dev/.
+4.	Google’s R style guide. https://google.github.io/styleguide/Rguide.html.
+5.	Lee, B. D. Ten simple rules for documenting scientific software. PLoS Comput. Biol. 14, e1006561 (2018).
+6.	codemeta. The CodeMeta project. https://codemeta.github.io/.
+7.	Druskat, S., Haines, R. & Baker, J. Citation File Format (CFF) - Specifications. (2018). doi:10.5281/zenodo.1242911.
+8.	CodeMeta generator. https://codemeta.github.io/codemeta-generator/.
+9.	codemeta-generator. GitHub https://github.com/codemeta/codemeta-generator.
+10.	cffinit: a web form to initialize CITATION.cff files. https://citation-file-format.github.io/cff-initializer-javascript/#/.
+11.	cff-initializer-javascript: Web form to initialize CITATION.cff files. GitHub https://github.com/citation-file-format/cff-initializer-javascript.
+12.	Licenses & standards. https://opensource.org/licenses.
+13.	The MIT license. https://opensource.org/licenses/MIT.
+14.	Apache license, version 2.0. https://opensource.org/licenses/Apache-2.0.
+15.	Choose an open source license. Choose a License https://choosealicense.com/.
+16.	PyPI · the Python Package Index. PyPI https://pypi.org/.
+17.	Conda — Conda documentation. https://docs.conda.io/en/latest/.
+18.	Hornik, K. The comprehensive R archive network. Wiley Interdiscip. Rev. Comput. Stat. 4, 394–398 (2012).
+19.	Dockstore. https://dockstore.org/.
+20.	ModelDB: Home. https://senselab.med.yale.edu/ModelDB/.
+21.	McDougal, R. A. et al. Twenty years of ModelDB and beyond: building essential modeling tools for the future of neuroscience. J. Comput. Neurosci. 42, 1–10 (2017).
+22.	Bioconductor - home. https://www.bioconductor.org/.
+23.	Huber, W. et al. Orchestrating high-throughput genomic analysis with Bioconductor. Nat. Methods 12, 115–121 (2015).
+24.	Gentleman, R. C. et al. Bioconductor: open software development for computational biology and bioinformatics. Genome Biol. 5, R80 (2004).
+25.	Registry of Research Data Repositories. https://www.re3data.org/.
+26.	Zenodo. https://zenodo.org/.
+27.	Figshare - credit for all your research. https://figshare.com/.
+28.	bio.tools · Bioinformatics Tools and Services Discovery. https://bio.tools/.
+29.	Research Resource Identifiers. https://www.rrids.org/.
