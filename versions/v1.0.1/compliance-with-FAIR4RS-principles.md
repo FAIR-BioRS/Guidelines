@@ -1,4 +1,4 @@
-# Compliance assessment of the FAIR Biomedical Research Software (FAIR-BioRS) guidelines v1.0.0 with the FAIR4RS principles
+# Compliance assessment of the FAIR Biomedical Research Software (FAIR-BioRS) guidelines v1.0.1 with the FAIR4RS principles
 
 <table>
 <thead>
