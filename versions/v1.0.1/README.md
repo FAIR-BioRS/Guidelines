@@ -1,4 +1,4 @@
-# FAIR Biomedical Research Software (FAIR-BioRS) guidelines v1.0.0
+# FAIR Biomedical Research Software (FAIR-BioRS) guidelines v1.0.1
 
 ## Step 1: Follow standards and best practices during development of the software
 
@@ -27,19 +27,19 @@ Include both codemeta.json [6] and CITATION.cff [7] metadata files in the root d
 generator [8,9] and CFF file initializer [10,11] are available to help prepare both.
 
 Provide, at least, the following fields in the codemeta.json file: Software name (“name”), Software
-description/abstract (“description”), Authors (“givenName”, “familyName”) with their Organization name
-(“affiliation”), Keywords (“keywords”), Programming Language (“programmingLanguage”), Release date
-(“dateModified”), License used (“license”).
+description/abstract (“description”), Unique identifier ("identifier"), Authors (“givenName”, “familyName”) with their Organization name
+(“affiliation”), Keywords (“keywords”), Programming Language (“programmingLanguage”), First and current release date
+(“dataPublished” and “dateModified”), License used (“license”).
 
 Provide, at least, the following fields in the CITATION.cff file: Authors ("given-names", “family-names") with their
-Organization name (“affiliation”), Software description/abstract (“abstract”), Keywords (“keywords”), License
+Organization name (“affiliation”), Software description/abstract (“abstract”), Unique identifier ("identifiers"), Keywords (“keywords”), License
 (“license”), Release date (“date-released”).
 
 ## Step 4: Choose a license
 Include the license terms in a LICENSE file located in the root directory of the software. While the FAIR4RS
 principles do not require research software to be open-source, it is highly recommended using a license approved
 by the Open Source Initiative (OSI) [12]. Amongst those licenses, it is encouraged to use the permissive MIT [13] or
-Apache 2.0 [14] licenses. Use “Choose a license” for help [15].
+Apache 2.0 [14] licenses. Use “Choose a license” for help [15]. Ensure that the selected license is compatible with the requirements of the licenses of the software’s dependencies.
 
 ## Step 5: Share software on a repository
 
@@ -53,7 +53,7 @@ genomics data [22–24]). The Registry of Research Data Repositories can be used
 Share software on Zenodo [26] or Figshare [27].
 
 ## Step 6: Register software on a registry
-Register the software on bio.tools [28] or on the Research Resource Identifiers (RRID) Portal [29]
+Optionally register the software on bio.tools [28] or on the Research Resource Identifiers (RRID) Portal [29]
 
 ## References
 1. Wilson, G. et al. Good enough practices in scientific computing. PLoS Comput. Biol. 13,
