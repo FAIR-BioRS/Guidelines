@@ -48,6 +48,12 @@ Each version of the guidelines are stored in a dedicated folder under the `versi
     <td> <a href="https://github.com/FAIR-BioRS/Guidelines/blob/main/versions/v1.0.1/README.md"> versions/v1.0.1/README.md </a> </td>
   </tr>
   
+  <tr>
+    <td> draft v2.0.0 </td>
+    <td> 06/02/2022 </td>
+    <td> <a href="https://github.com/FAIR-BioRS/Guidelines/blob/staging/main/README.md"> staging/main/README.md </a> </td>
+  </tr>  
+  
 </tbody>
 </table>
 
