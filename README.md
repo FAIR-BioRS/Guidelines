@@ -24,7 +24,7 @@ This repository is meant to maintain the FAIR Biomedical Research Software (FAIR
 
 
 
-## Feedback and contribution
+## Structure of the repository
 Each version of the guidelines are stored in a dedicated folder under the `versions` folder. They are also accessible through the table included below. An assessment of the compliance of the FAIR-BioRS guidelines with the FAIR4RS principles is also included with each version. The `main` folder contain a copy of the latest release folder where edits/suggestions can be made. At the time of the release of a new version of the guidelines, `main` folder will be copied in the `versions` folder and renamed after the new version number.  Ahanges between the different versions are tracked in the [CHANGELOG](https://github.com/FAIR-BioRS/Guidelines/blob/main/CHANGELOG.md) file. 
 
 <table>
