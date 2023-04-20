@@ -25,7 +25,7 @@ This repository is meant to maintain the FAIR Biomedical Research Software (FAIR
 
 
 ## Structure of the repository
-Each version of the guidelines are stored in a dedicated folder under the `versions` folder. They are also accessible through the table included below. An assessment of the compliance of the FAIR-BioRS guidelines with the FAIR4RS principles is also included with each version. The `main` folder contain a copy of the latest release folder where edits/suggestions can be made. At the time of the release of a new version of the guidelines, `main` folder will be copied in the `versions` folder and renamed after the new version number.  Ahanges between the different versions are tracked in the [CHANGELOG](https://github.com/FAIR-BioRS/Guidelines/blob/main/CHANGELOG.md) file. 
+Each version of the guidelines are stored in a dedicated folder under the `versions` folder. They are also accessible through the table included below. An assessment of the compliance of the FAIR-BioRS guidelines with the FAIR4RS principles is also included with each version. The `main` folder contain a copy of the latest release folder where edits/suggestions can be made via pull request. At the time of the release of a new version of the guidelines, the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](https://github.com/FAIR-BioRS/Guidelines/blob/main/CHANGELOG.md) file. 
 
 <table>
 <thead>
@@ -58,4 +58,34 @@ Each version of the guidelines are stored in a dedicated folder under the `versi
 </table>
 
 ## Feedback and contribution
-Use the [GitHub issues](https://github.com/FAIR-BioRS/Guidelines/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version or on the `main` folder of the staging branch if making suggestions on the lastest draft version.
+Use the [GitHub issues](https://github.com/FAIR-BioRS/Guidelines/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested).
+
+## License
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+## How to cite
+
+If you are using or mentioning these guidelines, please cite the following:
+
+- The associated manuscript:
+
+```bash
+    Patel, B., Soundarajan, S., & Hu, Z. (2022). Making Biomedical Research Software FAIR: Actionable Step-by-step Guidelines with a User-support Tool. bioRxiv, 2022-04.
+```
+
+- The Zenodo archive of this repository:
+
+```bash
+    Patel, Bhavesh, & Soundarajan, Sanjay. (2022). FAIR Biomedical Research Software (FAIR-BioRS) guidelines (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.6609011
+```
+
+
+## Acknowledgements
+
+- [NIAID](https://www.niaid.nih.gov/) (Funding source up to July 2022)
+- [The Butte Lab](https://buttelab.ucsf.edu/) (Collaborators)
+
+
