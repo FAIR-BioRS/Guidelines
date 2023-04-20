@@ -58,4 +58,4 @@ Each version of the guidelines are stored in a dedicated folder under the `versi
 </table>
 
 ## Feedback and contribution
-Use the [GitHub issues](https://github.com/FAIR-BioRS/Guidelines/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the main folder of the main branch (if making suggestions on the last released version) or on the main folder of the staging branch (if making suggestions on the last draft version).
+Use the [GitHub issues](https://github.com/FAIR-BioRS/Guidelines/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version or on the main folder of the staging branch if making suggestions on the lastest draft version.
