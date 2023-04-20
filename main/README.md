@@ -43,7 +43,7 @@
 
 5.2. Share software on Zenodo or Figshare. Source code of the software with all the above-mentioned metadata files must be shared. Executables must be shared as well if available.
 
-## Step 6: Register software on a registry
+## 6. Register software on a registry
 Optionally register the software on bio.tools or the Research Resource Identifiers (RRID) Portal.
 
 
