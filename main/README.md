@@ -6,8 +6,6 @@
 
 1.2. Select a license and include the license terms in a LICENSE file located in the root directory of the software. While the FAIR4RS principles do not require research software to be open-source, it is highly recommended using a license approved by the Open Source Initiative (OSI). Amongst those licenses, it is encouraged to use the permissive MIT or Apache 2.0 licenses. Use [choosealicense.com](https://choosealicense.com/) for help. During development, ensure that the software’s license is compatible with the software’s dependencies.
 
-1.3. Archive the repository on Software Heritage. This is only required once as Software Heritage will then periodically archive your repository automatically. You can use the [Software Heritage save code now page](https://archive.softwareheritage.org/save/).
-
 ## 2. Follow standards and best practices during the development of the software
 
 2.1. Have code-level documentation (in code comments, description in the file headers)
@@ -41,11 +39,13 @@
 
 ## 5. Share software on an archival repository
 
-5.1. If applicable, share software on a language-specific repository (e.g., PyPI or Conda for Python packages, CRAN for R packages, Dockstore for Docker-based tools) or a biomedical-specific repository (e.g., ModelDB for computational neuroscience models, Bioconductors for R-packages aimed at the analysis of genomics data). The Registry of Research Data Repositories can be used to find a suitable repository.
+5.1. If applicable, share software on a language-specific repository (e.g., PyPI or Conda for Python packages, CRAN for R packages, Dockstore for Docker-based tools) or a biomedical-specific repository (e.g., ModelDB for computational neuroscience models, Bioconductors for R-packages aimed at the analysis of genomics data). The Registry of Research Data Repositories can be used to find a suitable repository. Do this for each version release of your software.
 
-5.2. Share software on Zenodo or Figshare. Source code of the software with all the above-mentioned metadata files must be shared. Executables must be shared as well if available.
+5.2. Share software on Zenodo or Figshare. Source code of the software with all the above-mentioned metadata files must be shared. Executables must be shared as well if available. Do this for each version release of your software.
+
+5.3. Archive the source code on Software Heritage directly from your version control system platform. You can use the [Software Heritage save code now page](https://archive.softwareheritage.org/save/). This is only required once as Software Heritage will then periodically archive your source code automatically. 
 
 ## 6. Register software on a registry
-Optionally register the software on bio.tools or the Research Resource Identifiers (RRID) Portal.
+Optionally register the software on bio.tools or the Research Resource Identifiers (RRID) Portal. This is only required once but should be updated if the registry specific metadata needs to be updated.
 
 
