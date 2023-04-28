@@ -2,9 +2,11 @@
 
 ## 1. Follow best practices prior to the development of the software
 
-1.1. Select a version control system platform to work from (e.g., [GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/), [GitLab](https://gitlab.com/))
+1.1. Select a version control system platform to work from (e.g., [GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/), [GitLab](https://gitlab.com/)) and create a repository there for your software.
 
 1.2. Select a license and include the license terms in a LICENSE file located in the root directory of the software. While the FAIR4RS principles do not require research software to be open-source, it is highly recommended using a license approved by the Open Source Initiative (OSI). Amongst those licenses, it is encouraged to use the permissive MIT or Apache 2.0 licenses. Use [choosealicense.com](https://choosealicense.com/) for help. During development, ensure that the software’s license is compatible with the software’s dependencies.
+
+1.3. Archive the repository on Software Heritage. This is only required once as Software Heritage will then periodically archive your repository automatically. You can use the [Software Heritage save code now page](https://archive.softwareheritage.org/save/).
 
 ## 2. Follow standards and best practices during the development of the software
 
