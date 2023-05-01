@@ -31,9 +31,22 @@
 
 ## 4. Include metadata files
 
-4.1. Include a codemeta.json metadata file in the root directory of the software. The [CodeMeta generator](https://codemeta.github.io/codemeta-generator/) can be used. Provide, at least, the following fields in the codemeta.json file: Software name (“name”), Software description/abstract (“description”), Unique identifier ("identifier"), Authors (“givenName”, “familyName”) with their Organization name (“affiliation”), Keywords (“keywords”), Programming Language (“programmingLanguage”), First and current release date (“dataPublished” and “dateModified”), License used (“license”).
+4.1. Include a codemeta.json metadata file in the root directory of the software. The [CodeMeta generator](https://codemeta.github.io/codemeta-generator/) can be used. Provide, at least, the following fields in the codemeta.json file: 
+- Software name (“name”), Software description/abstract (“description”)
+- Unique identifier ("identifier")
+- Authors (“givenName”, “familyName”) with their Organization name (“affiliation”)
+- Keywords (“keywords”)
+- Programming Language (“programmingLanguage”)
+- First and current release date (“dataPublished” and “dateModified”)
+- License used (“license”).
 
-4.2. Include a CITATION.cff metadata file in the root directory of the software. The [CFF file initializer](https://citation-file-format.github.io/cff-initializer-javascript/) can be used. Provide, at least, the following fields in the CITATION.cff file: Authors ("given-names", “family-names") with their Organization name (“affiliation”), Software description/abstract (“abstract”), Unique identifier ("identifiers"), Keywords (“keywords”), License (“license”), Release date (“date-released”).
+4.2. Include a CITATION.cff metadata file in the root directory of the software. The [CFF file initializer](https://citation-file-format.github.io/cff-initializer-javascript/) can be used. Provide, at least, the following fields in the CITATION.cff file:
+- Authors ("given-names", “family-names") with their Organization name (“affiliation”)
+- Software description/abstract (“abstract”)
+- Unique identifier ("identifiers")
+- Keywords (“keywords”)
+- License (“license”)
+- Release date (“date-released”).
 
 
 ## 5. Share software on an archival repository
