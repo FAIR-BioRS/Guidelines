@@ -1,14 +1,14 @@
 # FAIR Biomedical Research Software (FAIR-BioRS) guidelines draft v2.0.0
 
-## 1. Follow best practices prior to the development of the software
+## 1. Prepare prior to the development of the software
 
 1.1. Select a version control system platform to work from (e.g., [GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/), [GitLab](https://gitlab.com/)) and create a repository there for your software.
 
 1.2. Select a license and include the license terms in a LICENSE file located in the root directory of the software. While the FAIR4RS principles do not require research software to be open-source, it is highly recommended using a license approved by the Open Source Initiative (OSI). Amongst those licenses, it is encouraged to use the permissive MIT or Apache 2.0 licenses. Use [choosealicense.com](https://choosealicense.com/) and/or the [SPDX License List](https://spdx.org/licenses/) for help. During development, ensure that the software’s license is compatible with the software’s dependencies.
 
-## 2. Follow coding standards and best practices during the development of the software
+## 2. Follow coding standards and best practices during development
 
-2.1. Have code-level documentation (in code comments, description in the file headers)
+2.1. Have code-level documentation (in code comments, description in the file headers).
 
 2.2. Record dependencies as per standard practices for the coding language, e.g. in a requirement.txt file for Python code, in a package.json file for Node projects, in a DESCRIPTION file for R packages.
 
@@ -16,7 +16,7 @@
 
 2.4. Ensure that inputs/outputs of the software follow any applicable community standards (e.g., General Feature Format (GFF) for genomic annotations - c.f. [fairsharing.org](https://fairsharing.org/) for finding relevant standards). 
 
-## 3. Document software following standards and best practices
+## 3. Document software 
 
 3.1. Maintain the documentation in a README.md or README.txt file located in the root directory of the software. Mature/complex software may require more sophisticated documentation that can be developed e.g. using tools such as [Read the Docs](https://readthedocs.org/) or [Docusaurus](docusaurus.io). The following aspects must be documented as applicable: 
 - Overall description of the software (e.g., in an “About” section)
