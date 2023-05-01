@@ -10,7 +10,7 @@
 
 2.1. Have code-level documentation (in code comments, description in the file headers).
 
-2.2. Record dependencies as per standard practices for the coding language, e.g. in a requirement.txt file for Python code, in a package.json file for Node projects, in a DESCRIPTION file for R packages.
+2.2. Record dependencies as per standard practices for the coding language, e.g. in a requirements.txt file for Python code, in a package.json file for Node projects, in a DESCRIPTION file for R packages.
 
 2.3. Follow language-specific standards and best practices (e.g. [the PEP 8 Style Guide for Python Code](https://peps.python.org/pep-0008/), [Google’s R Style Guide](https://google.github.io/styleguide/Rguide.html) for R code, [Common Workflow Language (CWL)](https://www.commonwl.org/) for command line tools, etc.) and document them (c.f. 3.2).
 
@@ -38,7 +38,7 @@
 
 ## 5. Share software on an archival repository
 
-5.1. If applicable, share software on a language-specific repository (e.g., [PyPI]() or [Conda]() for Python packages, [CRAN]() for R packages, [Dockstore]() for Docker-based tools) or a biomedical-specific repository (e.g., [ModelDB](https://senselab.med.yale.edu/ModelDB/) for computational neuroscience models, [Bioconductors](https://www.bioconductor.org/) for R-packages aimed at the analysis of genomics data). The [Registry of Research Data Repositories](https://www.re3data.org/) can be used to find a suitable repository. Do this for each version release of your software.
+5.1. If applicable, share software on a language-specific repository (e.g., [PyPI](https://pypi.org/) or [Conda](https://anaconda.org/anaconda/repo) for Python packages, [npm registry](https://www.npmjs.com/) for JavaScript packages, [CRAN](https://cran.r-project.org/) for R packages, [Dockstore](https://dockstore.org/) for Docker-based tools) or a biomedical-specific repository (e.g., [ModelDB](https://senselab.med.yale.edu/ModelDB/) for computational neuroscience models, [Bioconductors](https://www.bioconductor.org/) for R-packages aimed at the analysis of genomics data). The [Registry of Research Data Repositories](https://www.re3data.org/) can be used to find a suitable repository. Do this for each version release of your software.
 
 5.2. Share software on [Zenodo](https://zenodo.org/) or [Figshare](https://figshare.com/). Source code of the software with all the above-mentioned metadata files must be shared. Executables must be shared as well if available. Do this for each version release of your software.
 
