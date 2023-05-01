@@ -49,15 +49,15 @@
 - Release date (“date-released”).
 
 
-## 5. Share software on an archival repository
+## 5. Share software on an repository
 
-5.1. If applicable, share software on a language-specific repository (e.g., [PyPI](https://pypi.org/) or [Conda](https://anaconda.org/anaconda/repo) for Python packages, [npm registry](https://www.npmjs.com/) for JavaScript packages, [CRAN](https://cran.r-project.org/) for R packages, [Dockstore](https://dockstore.org/) for Docker-based tools) or a biomedical-specific repository (e.g., [ModelDB](https://senselab.med.yale.edu/ModelDB/) for computational neuroscience models, [Bioconductors](https://www.bioconductor.org/) for R-packages aimed at the analysis of genomics data). The [Registry of Research Data Repositories](https://www.re3data.org/) can be used to find a suitable repository. Do this for each version release of your software.
+5.1. If applicable, share software on a language-specific deployment repository e.g., [PyPI](https://pypi.org/) or [Conda](https://anaconda.org/anaconda/repo) for Python packages, [npm registry](https://www.npmjs.com/) for JavaScript packages, [CRAN](https://cran.r-project.org/) for R packages or [Bioconductors](https://www.bioconductor.org/) for R-packages aimed at the analysis of genomics data, [Dockstore](https://dockstore.org/) for Docker-based tools, etc. Do this for each version release of your software.
 
-5.2. Share software on [Zenodo](https://zenodo.org/) or [Figshare](https://figshare.com/). Source code of the software with all the above-mentioned metadata files must be shared. Executables must be shared as well if available. Do this for each version release of your software.
+5.2. Share software on an archival repository such as [Zenodo](https://zenodo.org/) or [Figshare](https://figshare.com/). Source code of the software with all the above-mentioned metadata files must be shared. Executables must be shared as well if available. Do this for each version release of your software.
 
-5.3. Archive the source code on [Software Heritage](https://www.softwareheritage.org/) directly from your version control system platform. You can use the [Software Heritage save code now page](https://archive.softwareheritage.org/save/). This is only required once as Software Heritage will then periodically archive your source code automatically. 
+5.3. Archive the source code and all development history on [Software Heritage](https://www.softwareheritage.org/) directly from your version control system platform. You can use the [Software Heritage save code now page](https://archive.softwareheritage.org/save/). This is only required once as Software Heritage will then periodically archive your source code automatically. 
 
 ## 6. Register software on a registry
-Optionally register the software on [bio.tools](https://bio.tools/) or the [Research Resource Identifiers (RRID) Portal](https://scicrunch.org/resources/about/resource). This is only required once but should be updated if the registry specific metadata needs to be updated.
+Optionally register the software on registry such as [bio.tools](https://bio.tools/) or the [Research Resource Identifiers (RRID) Portal](https://scicrunch.org/resources/about/resource). This is only required once but should be updated if the registry specific metadata needs to be updated.
 
 
