@@ -1,10 +1,10 @@
-# Compliance assessment of the FAIR Biomedical Research Software (FAIR-BioRS) guidelines v1.0.1 with the FAIR4RS principles
+# Summary of how the FAIR Biomedical Research Software (FAIR-BioRS) guidelines v2.0.0 allow complying with each of the FAIR4RS principles v1.0
 
 <table>
 <thead>
   <tr>
     <th> FAIR4RS principles </th>
-    <th> Corresponding steps of FAIR-BioRS guidelines </th>
+    <th> Compliance through the FAIR-BioRS guidelines </th>
   </tr>
 </thead>
 
@@ -16,28 +16,28 @@
     </tr>
   </thead>
   <tr>
-    <td> F1. Software is assigned a globally unique and persistent identifier </td>
-    <td> Step 5.b </td>
+    <td> F1. Sofware is assigned a globally unique and persistent identifier. </td>
+    <td> Archiving the software on Zenodo/Figshare (step 5.2) will assign a Digital Object Identifier (DOI) which is a unique and persistent identifier. Archiving the software on Software Heritage (step 5.3) will assign a SoftWare Heritage persistent IDentifier (SWHID) which is also a unique and persistent identifier. Bio.tools/RRID Portal will issue a unique and persistent identifier as well (bio.tools ID and RRID, respectively) when the software is registered (step 6).  </td>
   </tr>
   <tr>
-    <td> F1.1. Different components of the software must be assigned distinct identifiers representing different levels of granularity </td>
-    <td> Step 5.a, Step 5.b. (assuming different levels are shared separately) </td>
+    <td> F1.1. Components of the software representing levels of granularity are assigned distinct identifiers. </td>
+    <td> Bio.tools/RRID Portal (step 6) will assign a unique identifier for the entire software. Archiving each version of the software on Zenodo/Figshare (step 5.2) will assign a distinct identifier (DOI) for each version. Archiving the software on Software Heritage (step 5.3) will assign a distinct identifier (SWHID) to any level of granularity of the software (software, releases, files, commits, code fragments, etc.). </td>
   </tr>
   <tr>
-    <td> F1.2. Different versions of the same software must be assigned distinct identifiers </td>
-    <td> Step 5.b </td>
+    <td> F1.2. Different versions of the software are assigned distinct identifiers.  </td>
+    <td> Archiving each version of the software on Zenodo/Figshare (step 5.2) will assign a distinct identifier (DOI) for each version. Archiving on Software Heritage (step 5.3) will assign a distinct identifier for each version release of the software as well. Changes between versions will be documented in the CHANGELOG file (step 3.2). </td>
   </tr>
   <tr>
-    <td> F2. Software is described with rich metadata </td>
-    <td> Step 3, Step 5, Step 6 </td>
+    <td> F2. Software is described with rich metadata. </td>
+    <td> Rich metadata covering a variety of aspects will be provided through the code-level documentation (step 2.1), the dependencies recording (step 2.2), the instructed documentation (step 3), the prescribed metadata files (step 4), the repository-specific metadata on Zenodo/Fighsare (step 5.2), and the registry-specific metadata on bio.tools/RRID Portal (step 6). </td>
   </tr>
   <tr>
-    <td> F3. Metadata clearly and explicitly include the identifier of the software they describe </td>
-    <td> Step 3, Step 5.b </td>
+    <td> F3. Metadata clearly and explicitly include the identifier of the software they describe.  </td>
+    <td> The README file will include the DOI from Zenodo/Figshare in a “How to cite” or similar section (step 3.1). The codemeta.json and CITATION.cff files (step 4) will include the DOI from Zenodo/Figshare in their "identifier" and "identifiers" fields, respectively. The DOI from Zenodo/Figshare is always included in that repository’s metadata (step 5.2). The DOI will also be included in the bio.tools/RRID portal’s metadata which also includes their respective IDs (step 6). </td>
   </tr>
   <tr>
-    <td> F4. Metadata are FAIR and are searchable and indexable </td>
-    <td> Step 3, Step 5, Step 6 </td>
+    <td> F4. Metadata are FAIR, searchable and indexable.  </td>
+    <td> FAIR, searchable, and indexable metadata that follow community standards and use controlled vocabularies are provided through Zenodo (aligns with DataCite's Metadata Schema minimum and recommended terms, with a few additional enrichments)/Figshare (aligns with DataCite's Metadata Schema) (step 5.2), Software Heritage (follows the CodeMeta vocabulary) (step 5.3), and Bio.tools (uses the biotoolsSchema and EDAM ontology)/RRID Portal (follows the Resource Description Framework (RDF) and aligns with the Biomedical Resource Ontology (BRO) and the Eagle-i Resource Ontology (ERO) along with few additions) (step 6). The prescribed license documentation (step 1.2), development best practices (steps 2.1 and 2.2), documentation of the software (step 3), and prescribed metadata files (step 4) will contain additional metadata that also follow community standards, use controlled vocabularies, and is typically searchable through the suggested version system control platforms (step 1.1). </td>
   </tr>
   
   <thead>
@@ -46,20 +46,20 @@
     </tr>
   </thead>
   <tr>
-    <td> A1. Software is retrievable by its identifier using a standardized communications protocol </td>
-    <td> Step 5 </td>
+    <td> A1. Software is retrievable by its identifier using a standardised communications protocol. </td>
+    <td> The software can be retrieved by the DOI generated by Zenodo/Figshare (step 5.2) using HTTP, which is a standardized protocol. The software will be retrievable through the version control system platform (step 1.1) and Software Heritage (Step 5.3) also using HTTP. </td>
   </tr>
   <tr>
-    <td> A1.1. The protocol is open, free, and universally implementable </td>
-    <td> Step 5 </td>
+    <td> A1.1. The protocol is open, free, and universally implementable. </td>
+    <td> The HTTP protocol is open, free, and universally implementable. </td>
   </tr>
   <tr>
-    <td> A1.2. The protocol allows for an authentication and authorization procedure, where necessary </td>
-    <td> Step 5 </td>
+    <td> A1.2. The protocol allows for an authentication and authorization procedure, where necessary.  </td>
+    <td> Zenodo/Figshare (step 5.2) and version control systems platforms (step 1.1) have a process in place to allow for an authentication and authorization procedure for software shared under closed/restricted access. Everything on Software Heritage (Step 5.3) is open access and does not require any authentication or authorization.  </td>
   </tr>
   <tr>
-    <td> A2. Metadata are accessible, even when the software is no longer available </td>
-    <td> Step 5.b., Step 6 </td>
+    <td> A2. Metadata are accessible, even when the software is no longer available. </td>
+    <td> Once archived on Zenodo or Figshare (step 5.2) and on Software Heritage (step 5.3) both the software and metadata will always be available and accessible for the lifetime of these repositories. Moreover, Zenodo and Figshare send metadata from the software to DataCite for generating a DOI and that metadata will always remain accessible through the DataCite’s registry. Additionally, Zenodo keeps metadata stored in high-availability database servers separate from the software files. Bio.tools/RRID Portal (step 6) will also keep the metadata accessible even if the software is no longer available e.g., on the version control system platform or any of the archiving repositories. </td>
   </tr>
   
   <thead>
@@ -68,12 +68,12 @@
     </tr>
   </thead>
   <tr>
-    <td> I1. Software reads, writes and exchanges data in a way that meets domain-relevant community standards. </td>
-    <td> Step 1.a, Step 1.b </td>
+    <td> I1. Software reads, writes and exchanges data in a way that meets domain-relevant community standards.  </td>
+    <td> Step 2.4 will ensure that the inputs/outputs of the software follow any applicable community standards. Those standards will be documented in the README file (step 3.1) under a “Standards followed” or similar section. </td>
   </tr>
   <tr>
-    <td> I2. Software includes qualified references to other objects </td>
-    <td> Step 1.a, Step 1.b </td>
+    <td> I2. Software includes qualified references to other objects.  </td>
+    <td> The README file/documentation (step 3.1) will contain qualified references to other objects associated with the software under a “Parameters and data required to run the software” or similar section. The fields “isPartOf”, “hasPart”, and “relatedLink“ of the codemeta.json file (step 4.1) will also provide qualified references to other objects. The Zenodo metadata (step 5.2) include a “Related identifiers” field that can be used to provide qualified references to other objects.  </td>
   </tr>
   
   <thead>
@@ -82,24 +82,24 @@
     </tr>
   </thead>
   <tr>
-    <td> R1. Software is described with a plurality of accurate and relevant attributes </td>
-    <td> Step 1.c., Step 3, Step 5, Step 6 </td>
+    <td> R1. Software is described with a plurality of accurate and relevant attributes. </td>
+    <td> The software will be described with a plurality of accurate and relevant attributes through the development history captured by the version control system platform (step 1.1.), the prescribed documentation (step 3), the prescribed metadata files (step 4), the repository-specific metadata (step 5), and the registry-specific metadata (step 6), which all have several overlapping elements. </td>
   </tr>
   <tr>
-    <td> R1.1. Software must have a clear and accessible license </td>
-    <td> Step 4 </td>
+    <td> R1.1. Sofware is given a clear and accessible license. </td>
+    <td> The software will be given a clear and accessible license through step 1.2 which instructs selecting a license and including a LICENSE file with usage terms. The metadata of the software repository in the version control system platform (step 1.1), the metadata files (step 4), the repository-specific metadata (step 5), and the registry-specific metadata (step 6) will all include the name of the license. </td>
   </tr>
   <tr>
-    <td> R1.2. Software is associated with detailed provenance </td>
-    <td> Step 1.c., Step 3, Step 5, Step 6 </td>
+    <td> R1.2. Software is associated with detailed provenance. </td>
+    <td> Detailed provenance (why and how the software came to be, as well as who contributed what, when and where, etc.) will be provided in several ways: in the development history maintained by the version control system platform (step 1.1.) that will also get archived in Software Heritage (step 5.3), in the README (step 3.1) through an “Overall description of the software” and a “How to cite” or similar sections, in the codemeta.json (step 4.1) file through several fields such as Software description/abstract (“description”) and Authors (“givenName”, “familyName”) with their Organization name (“affiliation”), in the CITATION.cff file (step 4.2) through several fields such as Authors ("given-names", “family-names") with their Organization name (“affiliation”), in the repository-specific metadata (step 5), and the registry-specific metadata (step 6). </td>
   </tr>
   <tr>
-    <td> R2. Software includes qualified references to other software </td>
-    <td> Step 1, Step 3 </td>
+    <td> R2. Software includes qualified references to other software.  </td>
+    <td> The software dependencies file (step 2.2) will contain qualified references to other software required to run the source code. Following language-specific best practices (step 2.3) will also allow including dependencies in the code (e.g., imports in Python code). The README files (step 3.1) will contain qualified references to other software under a “High-level dependencies of the software” or similar section. The fields “isPartOf”, “hasPart”, and “relatedLink“ of the codemeta.json file (step 4.1) will provide qualified references to other software. The Zenodo metadata (Step 5.2) also includes a “Related identifiers” field that can be used to provide qualified references to other software. The bio.tools metadata (step 6) include a “Relations” class that can be used to provide qualified references to other software registered on bio.tools. </td>
   </tr>
   <tr>
-    <td> R3. Software meets domain-relevant community standards </td>
-    <td> Step 1 </td>
+    <td> R3. Software meets domain-relevant community standards. </td>
+    <td> Steps 1, 2, and 3 will ensure that the software, including its documentation and license, meet domain-relevant community standards. Sharing software on a domain-specific deployment repository (if applicable) will also help meet domain-relevant community standards (step 5.1). </td>
   </tr>
    
 </tbody>
