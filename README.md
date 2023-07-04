@@ -50,7 +50,7 @@ If you are using or mentioning these guidelines, please cite the following:
 - The Zenodo archive of this repository:
 
 ```bash
-    Patel, B., Soundarajan, S., Ménager, H. & Hu, Z. (2023). FAIR Biomedical Research Software (FAIR-BioRS) guidelines (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.6609011
+    Patel, B., Soundarajan, S., Ménager, H. & Hu, Z. (2023). FAIR Biomedical Research Software (FAIR-BioRS) guidelines (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.8115012
 ```
 
 
