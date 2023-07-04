@@ -29,7 +29,7 @@ The latest version of the guidelines is available in the [main folder](main).
 Each version of the guidelines are stored in a dedicated folder under the `versions` folder. An assessment of the compliance of the FAIR-BioRS guidelines with the FAIR4RS principles is also included with each version. The `main` folder contain a copy of the latest release folder where edits/suggestions can be made via pull request. At the time of the release of a new version of the guidelines, the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](https://github.com/FAIR-BioRS/Guidelines/blob/main/CHANGELOG.md) file. 
 
 ## Feedback and contribution
-Use the [GitHub issues](https://github.com/FAIR-BioRS/Guidelines/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested).
+Use the [GitHub issues](https://github.com/FAIR-BioRS/Guidelines/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested if a staging branch is available).
 
 ## License
 This work is licensed under a
