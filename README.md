@@ -44,13 +44,13 @@ If you are using or mentioning these guidelines, please cite the following:
 - The associated manuscript:
 
 ```bash
-    Patel, B., Soundarajan, S., & Hu, Z. (2023). Making Biomedical Research Software FAIR: Actionable Step-by-step Guidelines with a User-support Tool. bioRxiv, https://doi.org/10.1101/2022.04.18.488694.
+    Patel, B., Soundarajan, S., Ménager, H. & Hu, Z. (2023). Making Biomedical Research Software FAIR: Actionable Step-by-step Guidelines with a User-support Tool. bioRxiv, https://doi.org/10.1101/2022.04.18.488694.
 ```
 
 - The Zenodo archive of this repository:
 
 ```bash
-    Patel, Bhavesh, & Soundarajan, Sanjay. (2023). FAIR Biomedical Research Software (FAIR-BioRS) guidelines (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.6609011
+    Patel, B., Soundarajan, S., Ménager, H. & Hu, Z. (2023). FAIR Biomedical Research Software (FAIR-BioRS) guidelines (v2.0.0). Zenodo. https://doi.org/10.5281/zenodo.6609011
 ```
 
 
