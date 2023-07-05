@@ -8,7 +8,7 @@
 
 ## 2. Follow coding standards and best practices during development
 
-2.1. Have code-level documentation (e.g., in code comments, description in the file headers).
+2.1. Have code-level documentation (e.g., in code comments, description in the file headers) when deemed necessary for code reuse.
 
 2.2. Record dependencies as per standard practices for the coding language, e.g. in a requirements.txt file for Python code, in a package.json file for Node projects, or in a DESCRIPTION file for R packages.
 
