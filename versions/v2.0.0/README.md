@@ -18,7 +18,7 @@
 
 ## 3. Document software 
 
-3.1. Maintain the documentation in a file called "README" using plain text or markdown syntax. Locate it in the root directory of the software. Mature/complex software may require additional, more sophisticated documentation that can be developed e.g. using tools such as [GitHub pages](https://pages.github.com/), [Read the Docs](https://readthedocs.org/), or [Docusaurus](https://docusaurus.io/). The following aspects must be documented as applicable
+3.1. Maintain the documentation in a file called "README" using plain text or markdown syntax. Locate it in the root directory of the software. Mature/complex software may require additional, more sophisticated documentation that can be developed e.g. using tools such as [GitHub pages](https://pages.github.com/) or [Read the Docs](https://readthedocs.org/). The following aspects must be documented as applicable
  - Overall description of the software (e.g., in an “About” section)
  - High-level dependencies of the software (e.g., Node or Python version)
  - Inputs and outputs of the software, parameters and data required to run the software
@@ -26,7 +26,7 @@
  - How to contribute to the software
  - How to cite the software
 
-In addition, follow any community agreed standard documentation approach when available (e.g., the [Common Workflow Language (CWL)](https://www.commonwl.org/) for describing command line tools).
+In addition, follow any community-agreed standard documentation approach when available (e.g., the [Common Workflow Language (CWL)](https://www.commonwl.org/) for describing command line tools).
 
 3.2. Document changes between different versions of the software in a file called “CHANGELOG” using plain text or markdown syntax. Locate it in the root directory of the software. We suggest following the “[Keep a changelog](https://keepachangelog.com/)” conventions for the content of the CHANGELOG file and the [Semantic Versioning v2.0.0](https://semver.org/spec/v2.0.0.html) for version numbers.
 
